@@ -13,6 +13,11 @@ A simple static Netflix landing page clone built with HTML and CSS. This reposit
 - `img/` — images used by the page (background, thumbnails, logo, etc.)
 - `assets/` — small SVGs/icons referenced by the page
 
+```bash
+Copy code
+git clone https://github.com/dibya-22/Netflix-Clone
+Open the project folder in your preferred code editor.
+
 ## How to view locally
 You can simply open `index.html` in your browser, or serve it from a small local server.
 
