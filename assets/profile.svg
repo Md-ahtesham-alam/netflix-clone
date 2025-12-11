@@ -1,0 +1,59 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="profiles-core-small">
+    <path d="M10.8 15.6008C10.8 12.9499 12.949 10.8008 15.5999 10.8008H40.8C43.4509 10.8008 45.6 12.9498 45.6 15.6008V40.8007C45.6 43.4516 43.4509 45.6007 40.8 45.6007H15.6C12.949 45.6007 10.8 43.4517 10.8 40.8007V15.6008Z" fill="url(#g0)"/>
+    
+    <path d="M9.6 14.4016C9.6 11.7506 11.749 9.60156 14.4 9.60156H39.6C42.251 9.60156 44.4 11.7506 44.4 14.4016V39.6015C44.4 42.2525 42.251 44.4015 39.6 44.4015H14.4C11.749 44.4016 9.6 42.2525 9.6 39.6015V14.4016Z" fill="url(#g1)"/>
+
+    <circle cx="16.5" cy="21.9" r="2.1" fill="url(#g0)"/>
+    <circle cx="37.5" cy="21.9" r="2.1" fill="url(#g0)"/>
+
+    <path d="M23.671 29.45C23.244 29.197 22.692 29.338 22.438 29.766C22.185 30.193 22.326 30.745 22.754 30.999C23.825 31.634 26.769 32.774 30.638 32.774C34.506 32.774 37.45 31.634 38.521 30.999C38.949 30.745 39.09 30.193 38.837 29.766C38.583 29.338 38.031 29.197 37.604 29.45C36.819 29.915 34.194 30.974 30.638 30.974C27.081 30.974 24.456 29.915 23.671 29.45Z" fill="url(#g0)"/>
+
+    <path opacity=".35" d="M19.2 44.4016H28.2L32.4 27.6016C30.279 28.18 28.454 29.539 27.292 31.405L19.2 44.402Z" fill="url(#g1)"/>
+
+    <path d="M27.6 32.4016C27.6 29.7506 29.749 27.6016 32.4 27.6016H57.6C60.251 27.6016 62.4 29.7506 62.4 32.4016V57.6015C62.4 60.2524 60.251 62.4016 57.6 62.4016H32.4C29.749 62.4016 27.6 60.2524 27.6 57.6016V32.4016Z" fill="url(#g5)"/>
+
+    <circle cx="34.5" cy="39.9" r="2.1" fill="url(#g6)"/>
+    <circle cx="55.5" cy="39.9" r="2.1" fill="url(#g6)"/>
+
+    <path d="M41.821 47.603C41.394 47.349 40.842 47.49 40.588 47.918C40.335 48.346 40.476 48.898 40.904 49.151C41.975 49.786 44.919 50.927 48.788 50.927C52.656 50.927 55.6 49.786 56.671 49.151C57.099 48.898 57.24 48.346 56.987 47.918C56.733 47.49 56.181 47.349 55.754 47.603C54.969 48.067 52.344 49.127 48.788 49.127C45.231 49.127 42.606 48.067 41.821 47.603Z" fill="url(#g6)"/>
+  </g>
+
+  <defs>
+    <!-- Main dark gradient -->
+    <radialGradient id="g0" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(39.1 17.7) rotate(135) scale(33)">
+      <stop stop-color="#99421D"/>
+      <stop offset=".33" stop-color="#99161D"/>
+      <stop offset=".66" stop-color="#7D1845"/>
+      <stop offset="1" stop-color="#59216E"/>
+    </radialGradient>
+
+    <!-- Light pink gradient -->
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(62.4 8.7) rotate(134) scale(75)">
+      <stop stop-color="#FFDCCC"/>
+      <stop offset=".33" stop-color="#FFBDC0"/>
+      <stop offset=".66" stop-color="#F89DC6"/>
+      <stop offset="1" stop-color="#E4A1FA"/>
+    </radialGradient>
+
+    <!-- Red-purple block gradient -->
+    <radialGradient id="g5" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(61.8 29.7) rotate(135) scale(43)">
+      <stop stop-color="#EF7744"/>
+      <stop offset=".33" stop-color="#E50914"/>
+      <stop offset=".66" stop-color="#A70D53"/>
+      <stop offset="1" stop-color="#792A95"/>
+    </radialGradient>
+
+    <!-- Light highlight gradient -->
+    <radialGradient id="g6" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(62.1 11.1) rotate(137) scale(74)">
+      <stop stop-color="#FFDCCC"/>
+      <stop offset=".33" stop-color="#FDF6F6"/>
+      <stop offset=".66" stop-color="#FADCE9"/>
+      <stop offset="1" stop-color="#E4A1FA"/>
+    </radialGradient>
+  </defs>
+</svg>

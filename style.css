@@ -31,7 +31,7 @@ nav {
   align-items: center;
   height: 62px;
 }
-nav img {
+nav .logo {
   color: red;
   width: 120px;
   position: relative;
@@ -69,10 +69,23 @@ nav button {
   text-align: center;
 }
 .separation {
-  height: 4px;
+  height: 3px;
   background-color: red;
 }
 
+.lang{
+  padding: 5px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(14, 14, 14, 0.264);
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.523);
+}
+nav button span {
+  font-size: 15px;
+  padding: 0px 10px;
+}
 .btn {
   padding: 5px 24px;
   border-radius: 5px;
@@ -82,12 +95,14 @@ nav button {
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0.523);
 }
-
 .btn-red {
-   width: 185px;
-  height: 47px;
-  font-size: 20px;
-  padding: 7px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 185px;
+  height: 46px;
+  font-size: 19px;
+  padding: 5px 24px;
   background-color: red;
   color: white;
   border: none;
@@ -159,17 +174,18 @@ h1 {
 section.reasons{
   margin-top: 50px;
   margin-bottom: 70px;
-  width: 75vw;
+  width: 80vw;
   justify-self: center;
 }
 
-.reasons h2{
+.reasons h3{
+  font-size: 26px;
   color: white;
   margin-bottom: 20px;
 }
 
 .reasons span{
-color: white;
+color: rgba(255, 255, 255, 0.7);
 font-weight: 400;
 font-size: 15px;
 }
@@ -182,10 +198,17 @@ font-size: 15px;
 }
 
 .more .reason{
+  position: relative;
   height: 210px;
-  background-color: rgb(8, 84, 84);
+  background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
   border-radius: 15px;
   padding: 20px;
+}
+
+ .more .reason img{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
 
 .reason span{
@@ -281,20 +304,13 @@ footer a{
 footer button{
   margin-top: 50px;
   margin-bottom: 40px;
-  padding: 5px 24px;
-  border-radius: 5px;
-  font-weight: bold;
-  color: white;
-  background-color: rgba(14, 14, 14, 0.264);
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.523);
 }
 
 footer button:active{
   border: 2px solid white;
 }
 
-footer button span{
+footer button span {
   font-size: 15px;
   padding: 0px 10px;
 }
