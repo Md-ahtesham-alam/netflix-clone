@@ -14,8 +14,9 @@ A simple static Netflix landing page clone built with HTML and CSS. This reposit
 - `assets/` — small SVGs/icons referenced by the page
 
 ## Copy code
+git clone 
 ```bash
-git clone https://github.com/Md-ahtesham-alam/netflix-clone
+https://github.com/Md-ahtesham-alam/netflix-clone
 ```
 Open the project folder in your preferred code editor.
 
