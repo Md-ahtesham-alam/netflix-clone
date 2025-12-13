@@ -16,7 +16,7 @@ A simple static Netflix landing page clone built with HTML and CSS. This reposit
 ## Copy code
 git clone 
 ```bash
-https://github.com/Md-ahtesham-alam/netflix-clone
+https://github.com/Ahtesham933/netflix-clone
 ```
 Open the project folder in your preferred code editor.
 
