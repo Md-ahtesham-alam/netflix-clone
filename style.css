@@ -37,13 +37,27 @@ nav .logo {
   position: relative;
   z-index: 10;
 }
+
 nav button {
   position: relative;
   z-index: 10;
 }
+.lang {
+  padding: 5px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(14, 14, 14, 0.264);
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.523);
+}
+nav button span {
+  font-size: 15px;
+  padding: 0px 10px;
+}
 .text {
   font-family: "Martel Sans", sans-serif;
-  height: 82%;
+  height: 88%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,7 +69,7 @@ nav button {
 }
 .text > :nth-child(1) {
   font-weight: 900;
-  font-size: 48px;
+  font-size: 45px;
   text-align: center;
 }
 .text > :nth-child(2) {
@@ -69,23 +83,17 @@ nav button {
   text-align: center;
 }
 .separation {
-  height: 3px;
-  background-color: red;
+  height: 5px;
+  background: linear-gradient(
+    to right,
+    rgba(33, 13, 22, 1) 16%,
+    rgba(184, 40, 105, 1),
+    rgba(229, 9, 20, 1),
+    rgba(184, 40, 105, 1),
+    rgba(33, 13, 22, 1) 84%
+  );
 }
 
-.lang{
-  padding: 5px 24px;
-  border-radius: 5px;
-  font-weight: bold;
-  color: white;
-  background-color: rgba(14, 14, 14, 0.264);
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.523);
-}
-nav button span {
-  font-size: 15px;
-  padding: 0px 10px;
-}
 .btn {
   padding: 5px 24px;
   border-radius: 5px;
@@ -135,11 +143,11 @@ section.trending {
 }
 
 .shows {
-  padding: 20px;
-  width: 75vw;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 50px;
+  gap: 40px;
+  padding: 20px 0;
+  width: 79vw;
 }
 .shows img:hover {
   cursor: pointer;
@@ -147,6 +155,7 @@ section.trending {
 }
 
 .card {
+  height: 240px;
   position: relative;
 }
 .card span {
@@ -154,7 +163,7 @@ section.trending {
   bottom: 10px;
   font-weight: bolder;
   font-family: sans-serif;
-  left: -25px;
+  left: -26px;
   z-index: 10;
   font-size: 100px;
   -webkit-text-stroke: 2px white;
@@ -166,38 +175,39 @@ h1 {
 }
 
 .shows img {
-  height: auto;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 9px;
 }
 
-section.reasons{
+section.reasons {
   margin-top: 50px;
   margin-bottom: 70px;
   width: 80vw;
   justify-self: center;
 }
 
-.reasons h3{
+.reasons h3 {
   font-size: 26px;
   color: white;
   margin-bottom: 20px;
 }
 
-.reasons span{
-color: rgba(255, 255, 255, 0.7);
-font-weight: 400;
-font-size: 15px;
+.reasons span {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  font-size: 15px;
 }
 
-.more{
+.more {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap:15px;
+  gap: 15px;
   justify-content: space-between;
 }
 
-.more .reason{
+.more .reason {
   position: relative;
   height: 210px;
   background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
@@ -205,53 +215,53 @@ font-size: 15px;
   padding: 20px;
 }
 
- .more .reason img{
+.more .reason img {
   position: absolute;
   right: 10px;
   bottom: 10px;
 }
 
-.reason span{
-    word-wrap: break-word;
-    line-height: 1.3;
+.reason span {
+  word-wrap: break-word;
+  line-height: 1.3;
 }
 
-section.asked{
+section.asked {
   margin-top: 50px;
   width: 76vw;
   justify-self: center;
 }
-.asked h1{
+.asked h1 {
   margin-bottom: 20px;
 }
 
-  .faq{
-display: grid;
-grid-template-rows: repeat(6,1fr);
-gap: 10px;
-justify-content: space-between;
- }
+.faq {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+  justify-content: space-between;
+}
 
- .questions{
+.questions {
   width: 71vw;
   height: 74px;
   color: white;
-  background-color: rgb(45,45,45);
- display: flex;
- justify-content: space-between; 
- align-items: center;
- padding: 0px 1.5vw;
+  background-color: rgb(45, 45, 45);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 1.5vw;
 }
 
-.questions:hover{
-  background-color: rgb(70,70,70);
+.questions:hover {
+  background-color: rgb(70, 70, 70);
   cursor: pointer;
 }
 
-section.membership{
+section.membership {
   margin-top: 70px;
   color: white;
-  }
+}
 
 .membership .btn-red {
   font-size: 20px;
@@ -261,8 +271,8 @@ section.membership{
 }
 
 section.membership .text span {
- font-weight: 400;
-  font-size: 17px;
+  font-weight: 400;
+  font-size: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -278,35 +288,35 @@ section.membership .text span {
   color: white;
 }
 
-footer{
+footer {
   width: 75vw;
   margin-top: 50px;
   justify-self: center;
   color: rgb(179, 179, 179);
 }
 
-footer a{
-    color: rgb(179, 179, 179);
+footer a {
+  color: rgb(179, 179, 179);
 }
-.links{
+.links {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   gap: 20px;
 }
 
-.links a{
+.links a {
   font-size: 14px;
   font-weight: 500;
 }
 
-footer button{
+footer button {
   margin-top: 50px;
   margin-bottom: 40px;
 }
 
-footer button:active{
+footer button:active {
   border: 2px solid white;
 }
 
@@ -315,8 +325,244 @@ footer button span {
   padding: 0px 10px;
 }
 
-.learnmore{
+.learnmore {
   font-size: 13px;
   margin-top: 40px;
   margin-bottom: 140px;
+}
+
+/* laptop 1024px */
+
+@media (max-width: 1024px) {
+  nav .logo {
+    width: 115px;
+  }
+
+  nav button span {
+    font-size: 13px;
+  }
+
+  .text > :nth-child(1) {
+    font-size: 35px;
+  }
+  .text > :nth-child(2) {
+    font-size: 15px;
+  }
+  .text > :nth-child(3) {
+    font-size: 10px;
+  }
+
+  .btn-red {
+    width: 165px;
+    height: 39px;
+    font-size: 15px;
+    padding: 4px 24px;
+  }
+  .membership .btn-red {
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    padding: 4px 24px;
+  }
+
+  .main input {
+    font-size: 12px;
+    padding: 8px 35px;
+  }
+
+  .card {
+    height: 150px;
+  }
+  .card span {
+    bottom: 6px;
+    font-weight: bold;
+    left: -18px;
+    font-size: 70px;
+  }
+  .more {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* tablet 768px */
+
+@media (max-width: 767px) {
+  nav .logo {
+    width: 110px;
+  }
+
+  nav button span {
+    font-size: 11px;
+  }
+  .lang {
+    padding: 4px 23px;
+  }
+
+  .text > :nth-child(1) {
+    font-size: 30px;
+  }
+  .text > :nth-child(2) {
+    font-size: 10px;
+  }
+  .text > :nth-child(3) {
+    font-size: 9px;
+  }
+
+  .btn-red {
+    width: 150px;
+    height: 36px;
+    font-size: 14px;
+    padding: 3px 23px;
+  }
+  .membership .btn-red {
+    width: 165px;
+    height: 36px;
+    font-size: 15px;
+    padding: 4px 24px;
+  }
+
+  .main input {
+    font-size: 12px;
+    padding: 8px 35px;
+  }
+
+  .card {
+    width: 100%;
+    height: 100px;
+  }
+  .card span {
+    bottom: 5px;
+    left: -15px;
+    font-size: 50px;
+  }
+
+  .more {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+  }
+
+  .reasons h3 {
+    font-size: 23px;
+  }
+  .reasons h1 {
+    font-size: 26px;
+  }
+
+  .more .reason {
+    height: 180px;
+  }
+}
+.asked h1 {
+  font-size: 25px;
+}
+.questions {
+  width: 69vw;
+  height: 65px;
+}
+
+section.membership .text span {
+  font-weight: 300;
+  font-size: 17px;
+}
+
+/* mobile 425px */
+
+@media (max-width: 435px) {
+  nav .logo {
+    width: 80px;
+  }
+
+  nav button span {
+    font-size: 10px;
+  }
+  .lang {
+    padding: 2px 10px;
+  }
+  .text > :nth-child(1) {
+    font-size: 20px;
+  }
+  .text > :nth-child(2) {
+    font-size: 10px;
+  }
+  .text > :nth-child(3) {
+    font-size: 8px;
+  }
+
+  .btn-red img {
+    transform: scale(0.75);
+  }
+  .btn-red {
+    width: 120px;
+    height: 34px;
+    font-size: 10px;
+    padding: 2px 20px;
+  }
+  .membership .btn-red {
+    width: 90px;
+    height: 25px;
+    font-size: 9px;
+    padding: 1px 20px;
+  }
+
+  .main input {
+    font-size: 8px;
+    padding: 8px 25px;
+  }
+
+  .hero-btn {
+    flex-direction: column;
+  }
+  .shows {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  section.trending {
+    justify-items: center;
+  }
+
+  .card {
+    width: 45vw;
+    height: 40vh;
+  }
+
+  .card span {
+    bottom: 10px;
+    left: -20px;
+    font-size: 50px;
+    -webkit-text-stroke: 1px white;
+  }
+
+  .reasons h3 {
+    font-size: 21px;
+  }
+  .reasons h1 {
+    font-size: 25px;
+  }
+
+  .more .reason {
+    height: 170px;
+  }
+}
+.asked h1 {
+  font-size: 20px;
+}
+.questions {
+  width: 66vw;
+  height: 61px;
+}
+
+section.membership .text span {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.links {
+  margin-top: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2px 10px;
 }
